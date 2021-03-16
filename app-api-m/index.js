@@ -7,6 +7,11 @@ app.get("/data", (req, res) => {
     //SHOW
     res.json({ message: "get DATA" })
 })
+app.get("/profile", (req, res) => {
+    //SHOW
+    res.json({ name:"thongchai sriboonruang",nickname :"M" })
+})
+
 app.post("/data", (req, res) => {
     //CREATE
     res.json({ message: "create DATA" })
