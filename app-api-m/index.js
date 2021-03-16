@@ -11,7 +11,10 @@ app.get("/profile", (req, res) => {
     //SHOW
     res.json({ name:"thongchai sriboonruang",nickname :"M" })
 })
-
+app.delete("/profile", (req, res) => {
+    //DELETE
+    res.json({ message: "dalete profile DATA" })
+})
 app.post("/data", (req, res) => {
     //CREATE
     res.json({ message: "create DATA" })
